@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.background {
+  background-color: #ffc2a0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.heading {
+  color: #ff8542;
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .background {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+  .container {
+    padding: 60px;
+  }
+}
